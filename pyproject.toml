@@ -1,0 +1,7 @@
+[project]
+name = "moka"
+version = "1.0.0"
+description = "Moka Programming Language Specification"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = ["zensical>=0.0.30"]

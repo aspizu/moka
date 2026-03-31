@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "fmt": "bunx --bun prettier -uwu ."
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "prettier": "^3.8.1"
+    }
+}
