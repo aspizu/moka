@@ -30,10 +30,16 @@ func Color.is_red() -> Bool {
 
 ```moka
 func ToString.to_string() -> String {
-    match self {
-        Color.RED -> "RED"
-        Color.GREEN -> "GREEN"
-        Color.BLUE -> "BLUE"
+    switch self {
+        case Color.RED {
+            return "RED"
+        }
+        case Color.GREEN {
+            return "GREEN"
+        }
+        case Color.BLUE {
+            return "BLUE"
+        }
     }
 }
 ```
