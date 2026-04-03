@@ -1,4 +1,6 @@
-## Types
+# Types
+
+## Core Primitive Types
 
 The system utilizes several fundamental types to represent data and execution flow. These types are designed to align closely with standard ECMAScript behaviors while providing clear semantic boundaries.
 
