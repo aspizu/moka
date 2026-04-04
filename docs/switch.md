@@ -2,10 +2,10 @@
 
 ```moka
 switch expression {
-    case TypeName {
+    case variable: TypeName {
         expression
     }
-    case TypeName {
+    case variable: TypeName {
         expression
     }
 }
@@ -14,7 +14,7 @@ switch expression {
 ## If
 
 ```moka
-if expression is TypeName {
+if expression case expression: TypeName {
 
 }
 ```
